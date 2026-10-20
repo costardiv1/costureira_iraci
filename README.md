@@ -15,6 +15,16 @@ diagrama de classes, do diagrama de caso de uso e do documento de requisitos que
 **NetBeans / IntelliJ / Eclipse:** abra a pasta como projeto Maven (`pom.xml`) e execute a classe `costureira.Main`.
 Pelo Maven no terminal: `mvn package` e depois `java -jar target/costureira-iraci.jar`.
 
+## Versão web (HTML, CSS e JavaScript)
+
+A pasta [`docs/`](docs) tem a mesma aplicação em HTML + CSS + JS puro (`index.html`, `style.css`, `app.js`),
+feita para usar no celular. Tem os mesmos cadastros, movimentações, regras de negócio e os 7 relatórios.
+Os dados ficam salvos no próprio aparelho (no navegador).
+
+Para publicar no GitHub Pages: no repositório, vá em **Settings › Pages**, em *Build and deployment* escolha
+**Deploy from a branch**, selecione a branch e a pasta **/docs** e clique em **Save**. O endereço fica
+`https://costardiv1.github.io/costureira_iraci/`.
+
 ## O que o sistema tem
 
 | Enunciado | Onde está no sistema |
